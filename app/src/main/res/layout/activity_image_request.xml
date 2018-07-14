@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.hamedandroid.volly_library_wia_developers.Activities.ImageRequestActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnSendImageRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Sending Image Request"
+            android:textColor="#FFFFFFFF" />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSendImageRequest"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Select Your Image To Upload"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/btnSendImageRequest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSelectImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Sending Image Request2"
+            android:textColor="#FFFFFFFF" />
+
+        <ImageView
+            android:id="@+id/imgPicFromFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSendImageRequest2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="#050671"
+            android:padding="8dp" />
+
+
+        <ImageView
+            android:id="@+id/imgPicFromNet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgPicFromFile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:padding="8dp" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

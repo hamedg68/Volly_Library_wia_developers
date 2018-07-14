@@ -135,9 +135,7 @@ public class ImageRequestActivity extends RuntimePermissionsActivity {
 
     private void uploadImage() {
 
-        //    String url = "http://wiadevelopers.ir/api/volley/imageVolley.php";
-        //String url = "http://api.hamedandroid.ir/";
-        String url = "http://185.94.99.41:8080/99D82073830C3B61CBDEE389332C0017DF5CB45D/F9QX776N2NTOP/PersonModel/avatar";
+    String url="";
         dialog.show();
 
         Response.Listener<String> listener = new Response.Listener<String>() {

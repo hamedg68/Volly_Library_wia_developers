@@ -3,7 +3,7 @@
     package="ir.hamedandroid.volly_library_wia_developers">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".App.AppController"
@@ -25,7 +25,8 @@
         <activity android:name=".Activities.StringRequestActivity" />
         <activity android:name=".Activities.JsonRequestActivity" />
         <activity android:name=".Activities.ImageRequestActivity" />
-        <activity android:name=".Activities.CustomRequestActivity"></activity>
+        <activity android:name=".Activities.CustomRequestActivity" />
+        <activity android:name=".Activities.GeoLocationActivity"></activity>
     </application>
 
 </manifest>
